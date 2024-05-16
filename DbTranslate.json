@@ -1,0 +1,22 @@
+{
+  "BH_BUY_HD_XE_DKBS": {
+    "MA_DVI": "BusinessUnit",
+    "SO_ID": "ContractId",
+    "SO_ID_DT": "ObjectId",
+    "SO_ID_DI": "IdDI",
+    "SO_ID_DT_DI": "ObjectIdDI",
+    "BT": "OrdinalNumber",
+    "MA_DK": "TermCode",
+    "MA": "Id",
+    "LH_NV": "BusinessCode",
+    "NT_TIEN": "Currency",
+    "TIEN": "Amount",
+    "PT": "Percent",
+    "K_PHI": "FeeType",
+    "PHI": "Fee",
+    "MT_TIEN": "DeductibleAmount",
+    "MT_PT": "Deductible",
+    "MT_KTR": "Deductible",
+    "TC": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+
+  //string
+  "VARCHAR2": "string",
+  "VARCHAR": "string",
+  "CHAR": "string",
+  "NCHAR": "string",
+  "CLOB": "string",
+  //decimal
+  "NUMBER": "decimal?",
+  "FLOAT": "decimal?",
+  //Datetime
+  "DATE": "DateTime?"
+
+}

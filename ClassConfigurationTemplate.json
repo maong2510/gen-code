@@ -1,0 +1,3 @@
+{
+  "classString": "using Microsoft.EntityFrameworkCore; \r\n using Microsoft.EntityFrameworkCore.Metadata.Builders; \r\n namespace Infrastructure.Configurations \r\n public class {TableEName}Configuration : IEntityTypeConfiguration<{TableEName}> \r\n {  public void Configure(EntityTypeBuilder<{TableEName}> entity) \r\n {     {fieldConfigString} \r\n {evnString}  \r\n }   \r\n }"
+}

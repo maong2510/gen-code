@@ -1,0 +1,5 @@
+{
+  "field": "entity.Property(x => x.BusinessUnit).HasColumnName(\"{FieldName}\").HasMaxLength(100)",
+  "evnWithKey": "var evn = Environment.GetEnvironmentVariable(\"ASPNETCORE_ENVIRONMENT\") \r\n if( evn =\"Development\") \r\n builder.ToTable(\"{TableName}\",SystemConstant.SchemaAppSaleProduct).HasKey(x=> new {{PrimaryKey}}); \r\n else \r\n builder.ToTable(\"{TableName}\",SystemConstant.SchemaAppSale).HasKey(x=> new {{PrimaryKey}});",
+  "evnNonKey": "var evn = Environment.GetEnvironmentVariable(\"ASPNETCORE_ENVIRONMENT\") \r\n if( evn =\"Development\") \r\n builder.ToTable(\"{TableName}\",SystemConstant.SchemaAppSaleProduct).HasNoKey(); \r\n else \r\n builder.ToTable(\"{TableName}\",SystemConstant.SchemaAppSale).HasNoKey();"
+}
